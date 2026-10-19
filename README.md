@@ -4,7 +4,7 @@
 
 **A deterministic 3×3 solve, rendered in a single 1080×1080 canvas.**
 
-<p><a href="https://threejs.org/"><img src="https://img.shields.io/badge/three.js-r160-f0a33a?style=flat-square" alt="three.js"></a> <a href="cube-solve-1080p.mp4"><img src="https://img.shields.io/badge/video-1080p60-75c9ff?style=flat-square" alt="video"></a> <img src="https://img.shields.io/badge/canvas-1080%C3%971080-61e2a4?style=flat-square" alt="canvas"> <img src="https://img.shields.io/badge/single--file-HTML-d9e3eb?style=flat-square" alt="single file"> <a href="#license"><img src="https://img.shields.io/badge/license-MIT-9aa7b2?style=flat-square" alt="MIT license"></a></p>
+<p><a href="https://zhangfaen.github.io/rubik-cube-threejs/"><img src="https://img.shields.io/badge/live-demo-61e2a4?style=flat-square" alt="live demo"></a> <a href="https://threejs.org/"><img src="https://img.shields.io/badge/three.js-r160-f0a33a?style=flat-square" alt="three.js"></a> <a href="cube-solve-1080p.mp4"><img src="https://img.shields.io/badge/video-1080p60-75c9ff?style=flat-square" alt="video"></a> <img src="https://img.shields.io/badge/canvas-1080%C3%971080-61e2a4?style=flat-square" alt="canvas"> <img src="https://img.shields.io/badge/single--file-HTML-d9e3eb?style=flat-square" alt="single file"> <a href="#license"><img src="https://img.shields.io/badge/license-MIT-9aa7b2?style=flat-square" alt="MIT license"></a></p>
 
 <a href="cube-solve-1080p.mp4">
   <img src="assets/preview.gif" width="620" alt="3×3 Rubik's cube solve animation with timer and step counter">
@@ -20,7 +20,7 @@
 
 这是一个可以独立打开的单文件演示：20 步 WCA 打乱、19 步双阶段求解、固定镜头、实时计时、步骤计数，以及复原结束后出现的可拖动时间轴。没有构建步骤，没有 CDN，没有外部图片或字体。
 
-完整视频：[`cube-solve-1080p.mp4`](cube-solve-1080p.mp4) · 单文件 demo：[`index.html`](index.html)
+**在线 demo：[zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)** · 完整视频：[`cube-solve-1080p.mp4`](cube-solve-1080p.mp4) · 单文件：[`index.html`](index.html)
 
 ## What it does
 
@@ -137,6 +137,8 @@ This avoids dropped frames and keeps the 0.35 s / 0.05 s rhythm exact. The `导�
 
 ## Run it
 
+Live demo: **[zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)**
+
 No install or build step:
 
 ```bash
@@ -151,7 +153,7 @@ python3 -m http.server 8000
 # http://localhost:8000
 ```
 
-The page auto-plays once, then reveals the replay controls. If you want a shareable live demo, enable GitHub Pages with `main` / root; `index.html` is already at the repository root.
+The page auto-plays once, then reveals the replay controls. GitHub Pages is enabled from `main` / root; `index.html` is the live entry point.
 
 ## Repository layout
 
