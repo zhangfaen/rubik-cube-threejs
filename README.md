@@ -22,6 +22,8 @@
 
 **在线 demo：[zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)** · 完整视频：[`cube-solve-1080p.mp4`](cube-solve-1080p.mp4) · 单文件：[`index.html`](index.html)
 
+> **Built with** `deepseek/deepseek-v4.1-flash-1017` · thinking level `max` · **ZCode** `3.15.3` (`3.15.3.8237`)
+
 ## What it does
 
 - **1080 × 1080 canvas** with a fixed orthographic camera. The whole cube never rotates.
@@ -185,6 +187,23 @@ The page auto-plays once, then reveals the replay controls. GitHub Pages is enab
 ```
 
 </details>
+
+## Build provenance
+
+| Item | Value |
+| --- | --- |
+| Model | `deepseek/deepseek-v4.1-flash-1017` |
+| Thinking level | `max` |
+| Harness | ZCode `3.15.3` (build `3.15.3.8237`) |
+| Host | macOS `26.7.1` (`25G241`), Apple Silicon `arm64` |
+| Browser for video capture | Google Chrome for Testing `149.0.7827.55` |
+| Browser automation | Playwright-core `1.55.0` |
+| 3D renderer | three.js `r160` |
+| Video encoder | ffmpeg `8.0.1` |
+| Runtime | Node.js `24.12.0`, Python `3.11.5` |
+| Solve/verify libraries | `kociemba 1.2.1`, `PyCuber 0.2.2` |
+
+The model and harness were used for the solve strategy, implementation, visual iteration, verification, and documentation. The final 19-move solution was checked independently in both PyCuber and the animation's own cubie model.
 
 ## Notes
 
