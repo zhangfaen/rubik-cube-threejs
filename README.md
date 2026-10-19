@@ -20,7 +20,9 @@
 
 这是一个可以独立打开的单文件演示：20 步 WCA 打乱、19 步双阶段求解、固定镜头、实时计时、步骤计数，以及复原结束后出现的可拖动时间轴。没有构建步骤，没有 CDN，没有外部图片或字体。
 
-**在线 demo：[zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)** · 完整视频：[`cube-solve-1080p.mp4`](cube-solve-1080p.mp4) · 单文件：[`index.html`](index.html)
+**▶ 直接运行：[zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)** · 完整视频：[`cube-solve-1080p.mp4`](cube-solve-1080p.mp4) · 源码：[`index.html`](index.html)
+
+> GitHub 的 `blob` 链接打开的是代码视图，这是平台行为。要看渲染后的页面，请用上面的 GitHub Pages 地址；它直接执行 HTML，不会显示源码。
 
 > **Built with** `deepseek/deepseek-v4.1-flash-1017` · thinking level `max` · **ZCode** `3.15.3` (`3.15.3.8237`)
 
@@ -139,7 +141,7 @@ This avoids dropped frames and keeps the 0.35 s / 0.05 s rhythm exact. The `导�
 
 ## Run it
 
-Live demo: **[zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)**
+**Open in browser: [zhangfaen.github.io/rubik-cube-threejs](https://zhangfaen.github.io/rubik-cube-threejs/)**
 
 No install or build step:
 
@@ -155,7 +157,18 @@ python3 -m http.server 8000
 # http://localhost:8000
 ```
 
-The page auto-plays once, then reveals the replay controls. GitHub Pages is enabled from `main` / root; `index.html` is the live entry point.
+The page auto-plays once, then reveals the replay controls.
+
+### Which link to share
+
+| Link | What happens |
+| --- | --- |
+| `https://zhangfaen.github.io/rubik-cube-threejs/` | Renders and runs the demo |
+| `https://github.com/zhangfaen/rubik-cube-threejs` | Repository home |
+| `.../blob/main/index.html` | Source code view, not the running page |
+| `.../raw/main/index.html` | Raw file, served as `text/plain` |
+
+GitHub serves repository HTML as source and will not execute it from `github.com`. GitHub Pages is enabled from `main` / root, so the Pages URL is the shareable runnable link.
 
 ## Repository layout
 
